@@ -157,6 +157,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/me301t/proprietary/lib/libsensors.isl29028.so:system/lib/libsensors.isl29028.so \
     vendor/asus/me301t/proprietary/lib/libsensors.ltr558als.so:system/lib/libsensors.ltr558als.so \
     vendor/asus/me301t/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    vendor/asus/tf300t/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/asus/me301t/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
     vendor/asus/me301t/proprietary/usr/share/alsa/cards/aliases.conf:system/usr/share/alsa/cards/aliases.conf \
     vendor/asus/me301t/proprietary/usr/share/alsa/pcm/center_lfe.conf:system/usr/share/alsa/pcm/center_lfe.conf \
@@ -185,10 +186,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/me301t/proprietary/vendor/firmware/bcm4334/fw_bcmdhd.bin:system/vendor/firmware/bcm4334/fw_bcmdhd.bin \
     vendor/asus/me301t/proprietary/vendor/firmware/bcm4334/fw_bcmdhd_apsta.bin:system/vendor/firmware/bcm4334/fw_bcmdhd_apsta.bin \
     vendor/asus/me301t/proprietary/vendor/firmware/bcm4334/fw_bcmdhd_p2p.bin:system/vendor/firmware/bcm4334/fw_bcmdhd_p2p.bin \
+    vendor/asus/tf300t/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/asus/me301t/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/asus/me301t/proprietary/vendor/lib/hw/power.cardhu.so:system/vendor/lib/hw/power.cardhu.so \
-    vendor/asus/me301t/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/asus/me301t/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/asus/me301t/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/asus/me301t/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/asus/me301t/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
